@@ -1,0 +1,117 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #Inicio {
+        background-color: rgb(221, 215, 215);
+        width: 50%;
+        height: 100%;
+        float: left;
+        min-height: 100vh;
+    }
+    
+    #Inicio h1 {
+        font-size: 10vh;
+    }
+    
+    #Inicio p {
+        float: right;
+        margin-top: 60%;
+        width: 50%;
+        margin-right: 20%;
+    }
+    
+    .main-nev {
+        text-align: center;
+    }
+    
+    .main-nav__item a {
+        color: rgb(97, 96, 96);
+        text-decoration: none;
+    }
+    
+    .main-nav__item {
+        display: inline-block;
+        list-style: none;
+    }
+    
+    #Inicio .main-nev {
+        margin-top: 90%;
+    }
+    
+    #Noticias {
+        background-color: rgb(255, 255, 255);
+        float: right;
+        width: 50%;
+        height: 50%;
+        min-height: 50vh;
+    }
+    
+    #Galería {
+        background-color: rgb(143, 142, 142);
+        float: right;
+        width: 50%;
+        height: 50%;
+        min-height: 50vh;
+    }
+    
+    @media screen and (min-width: 48rem) and (max-width: 64rem) {
+        .main-nev {
+            position: absolute;
+            left: 40%;
+            top: 0px;
+            margin: auto;
+        }
+        #Inicio {
+            background-color: rgb(34, 63, 58);
+            width: 100%;
+        }
+        #Inicio h1 {
+            float: left;
+            margin-top: 50px;
+            width: 50%;
+        }
+        #Inicio p {
+            float: right;
+            margin-top: 50px;
+            width: 50%;
+            margin-right: 10%;
+        }
+        #Noticias {
+            background-color: saddlebrown;
+            width: 100%;
+        }
+        #Galería {
+            background-color: salmon;
+            width: 100%;
+        }
+    }
+    
+    @media screen and (max-width: 56rem) {
+        #Inicio {
+            background-color: rgb(170, 147, 15);
+            width: 100%;
+        }
+        #Noticias {
+            background-color: saddlebrown;
+            width: 100%;
+        }
+        #Galería {
+            background-color: salmon;
+            width: 100%;
+        }
+    }
+    
+    .imagen {
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+        width: 5rem;
+        height: 5rem;
+        padding: 1rem;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+        box-sizing: content-box;
+        margin: 2rem;
+        border-radius: 1rem;
+    }
